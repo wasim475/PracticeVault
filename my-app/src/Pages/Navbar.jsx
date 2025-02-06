@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
         <IoMdMenu onClick={()=>setOpenMenu(!openMenu)} className='text-2xl' />
-      <ul className={`bg-cyan-400 inline-block p-4 ${openMenu ? "duration-1000":"mt-60 duration-1000"}`} >
+      <ul className={`bg-cyan-400 inline-block absolute p-4 ${openMenu ? "duration-1000":"-mt-60 duration-1000"}`} >
         <li>Home</li>
         <li>About</li>
         <li>Blogs</li>
